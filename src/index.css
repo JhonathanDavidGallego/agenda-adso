@@ -1,10 +1,7 @@
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  body {
-    @apply bg-gray-50 text-gray-800 font-sans;
-  }
+/* Estilos base globales para toda la app */
+body {
+  /* Fondo gris claro, tipografía sans, col */
+  @apply bg-gray-50 text-gray-800 font-sans;
 }
